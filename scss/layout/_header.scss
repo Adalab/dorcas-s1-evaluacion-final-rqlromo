@@ -29,7 +29,7 @@
 // }
 
 .titulo-h1 {
-  font-family: 'Roboto Slab', serif;
+  font-family: $font-Roboto-Slab;
   font-size: 42px;
   font-weight: bold;
   line-height: 55px;
@@ -50,7 +50,7 @@
 }
 
 .parrafo-header {
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-Roboto;
   font-size: 18px;
   font-weight: normal;
   line-height: normal;

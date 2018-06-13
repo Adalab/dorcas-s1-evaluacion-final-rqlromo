@@ -4,7 +4,7 @@
 }
 
 .div-insomnia {
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-Roboto;
   font-size: 14px;
   font-weight: normal;
   line-height: 30px;
@@ -13,7 +13,7 @@
 }
 
 .titulo-main {
-  font-family: 'Roboto Slab', serif;
+  font-family: $font-Roboto-Slab;
   font-size: 24px;
   font-weight: bold;
   line-height: 30px;
@@ -28,7 +28,7 @@
 }
 
 .texto-main {
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-Roboto;
   font-size: 18px;
   font-weight: normal;
   line-height: 30px;
@@ -47,7 +47,7 @@
 .button-go {
   text-transform: capitalize;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 45px;
@@ -69,7 +69,7 @@
 }
 
 .subtitulo-main {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: $font-Roboto-Slab;
   font-size: 18px;
   font-weight: bold;
   line-height: 30px;
@@ -87,7 +87,7 @@
 }
 
 .button-reasons {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: $font-Roboto-Slab;
   font-size: 20px;
   font-weight: 500;
   line-height: 45px;
