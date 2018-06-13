@@ -1,0 +1,43 @@
+
+.page-footer {
+  background-color: $color-dark-grey-blue;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.button-up {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $color-white;
+  border-radius: 100%;
+  top: 0;
+  transform: translateY(-50%);
+}
+
+.link-imag-up {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imag-up {
+  display: block;
+}
+
+.text-footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+  color: $color-white;
+  margin: 0;
+}
+
+.corazon {
+  color: $color-bright-orange;
+}

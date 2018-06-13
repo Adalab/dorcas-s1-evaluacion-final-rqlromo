@@ -21,6 +21,7 @@ body {
   height: 44px;
   width: 44px;
   background-color: #0271bc;
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -92,7 +93,9 @@ body {
 
 .imag-down {
   display: block;
-}/* me falta lo de insomnia!! */.section-looking {
+}
+
+.section-looking {
   padding: 30px 15px;
 }
 
@@ -152,6 +155,7 @@ body {
 .section-reasons {
   padding: 30px 15px 60px;
   text-align: center;
+  background-color: #eff9ff;
 }
 
 .subtitulo-main {
@@ -183,6 +187,51 @@ body {
   margin-top: 45px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.page-footer {
+  background-color: #304268;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.button-up {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-radius: 100%;
+  top: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.link-imag-up {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.imag-up {
+  display: block;
+}
+
+.text-footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+  color: #fff;
+  margin: 0;
+}
+
+.corazon {
+  color: #f26002;
 }
 
 /*# sourceMappingURL=main.css.map */
