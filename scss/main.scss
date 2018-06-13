@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+body {
+  height: 100vh;
+}
+
+@import 'layout/header';
