@@ -1,0 +1,236 @@
+/* Text styles */
+// .encabezado-principal-desktop {
+//   font-family: 'Roboto Slab', serif;
+//   font-size: 100px;
+//   font-weight: 700;
+//   // font-style: normal;
+//   // font-stretch: normal;
+//   line-height: 1.32;
+//   letter-spacing: normal;
+//   text-align: center;
+//   text-transform: uppercase;
+// }
+//
+// .encabezado-principal-tablet {
+//   font-family: 'Roboto Slab', serif;
+//   font-size: 80px;
+//   font-weight: 700;
+//   // font-style: normal;
+//   // font-stretch: normal;
+//   line-height: 1.33;
+//   letter-spacing: normal;
+//   text-align: center;
+// }
+
+.titulo-h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 42px;
+  font-weight: bold;
+  // font-style: normal;
+  // font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: center;
+  color: $color-white;
+  margin: 0px;
+}
+
+.parrafo-header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  // font-style: normal;
+  // font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: $color-white;
+}
+
+// .encabezado-seccin-dsesktop {
+//   font-family: 'Roboto Slab', serif;
+//   font-size: 32px;
+//   font-weight: bold;
+//   // font-style: normal;
+//   // font-stretch: normal;
+//   line-height: 1.41;
+//   letter-spacing: normal;
+//   color: #000;
+//   color: var($color-black);
+// }
+//
+// .encabezado-seccion-tablet {
+//   font-family: 'Roboto Slab', serif;
+//   font-size: 26px;
+//   font-weight: bold;
+//   // font-style: normal;
+//   // font-stretch: normal;
+//   line-height: 1.73;
+//   letter-spacing: normal;
+//   color: #000;
+//   color: var($color-black);
+// }
+//
+// .encabezado-seccion-mobile {
+//   font-family: 'Roboto Slab', serif;
+//   font-size: 24px;
+//   font-weight: bold;
+//   // font-style: normal;
+//   // font-stretch: normal;
+//   line-height: 1.25;
+//   letter-spacing: normal;
+//   color: #000;
+//   color: var($color-black);
+// }
+//
+// .parrafo-hero {
+//   font-family: 'Roboto', sans-serif;
+//   font-size: 24px;
+//   font-weight: normal;
+//   // font-style: normal;
+//   // font-stretch: normal;
+//   line-height: normal;
+//   letter-spacing: normal;
+//   text-align: center;
+//   color: #fff;
+//   color: var($color-white);
+// }
+//
+// .texto-boton-mobile {
+//   font-family: 'Roboto', sans-serif;
+//   font-size: 20px;
+//   font-weight: 500;
+//   // font-style: normal;
+//   // font-stretch: normal;
+//   line-height: 2.25;
+//   letter-spacing: normal;
+//   text-align: center;
+//   color: #f26002;
+//   color: var($color-bright-orange);
+// }
+//
+// .texto-botton-blanco {
+//   font-family: 'Roboto', sans-serif;
+//   font-size: 20px;
+//   font-weight: 500;
+//   // font-style: normal;
+//   // font-stretch: normal;
+//   line-height: 2.25;
+//   letter-spacing: normal;
+//   text-align: center;
+//   color: #fff;
+//   color: var($color-white);
+// }
+//
+// .parrafo-2-tablet {
+//   font-family: 'Roboto', sans-serif;
+//   font-size: 20px;
+//   font-weight: 400;
+//   // font-style: normal;
+//   // font-stretch: normal;
+//   line-height: 1.5;
+//   letter-spacing: normal;
+//   text-align: center;
+//   color: #000;
+//   color: var($color-black);
+// }
+//
+// .parrafo-seccion-tablet {
+//   font-family: 'Roboto', sans-serif;
+//   font-size: 20px;
+//   font-weight: 400;
+//   // font-style: normal;
+//   // font-stretch: normal;
+//   line-height: 1.5;
+//   letter-spacing: normal;
+//   color: #4a4a4a;
+//   color: var($color-greyish-brown);
+// }
+//
+// .subttulo-seccion-mobile {
+//   font-family: 'Roboto', sans-serif;
+//   font-size: 18px;
+//   font-weight: bold;
+//   font-style: normal;
+//   font-stretch: normal;
+//   line-height: 1.67;
+//   letter-spacing: normal;
+//   text-align: center;
+//   color: #000;
+//   color: var($color-black);
+// }
+//
+// .parrafo-2-mobile {
+//   font-family: 'Roboto', sans-serif;
+//   font-size: 18px;
+//   font-weight: normal;
+//   font-style: normal;
+//   font-stretch: normal;
+//   line-height: 1.67;
+//   letter-spacing: normal;
+//   text-align: center;
+//   color: #000;
+//   color: var($color-black);
+// }
+//
+// .parrafo-mobile {
+//   font-family: 'Roboto', sans-serif;
+//   font-size: 18px;
+//   font-weight: normal;
+//   font-style: normal;
+//   font-stretch: normal;
+//   line-height: 1.67;
+//   letter-spacing: normal;
+//   color: #4a4a4a;
+//   color: var($color-greyish-brown);
+// }
+//
+// .categora-desktop {
+//   font-family: 'Roboto', sans-serif;
+//   font-size: 16px;
+//   font-weight: normal;
+//   font-style: normal;
+//   font-stretch: normal;
+//   line-height: 1.88;
+//   letter-spacing: normal;
+//   color: #8ccbea;
+//   color: var($color-lightblue);
+// }
+//
+// .parrafo-hero-mobile {
+//   font-family: 'Roboto', sans-serif;
+//   font-size: 16px;
+//   font-weight: normal;
+//   font-style: normal;
+//   font-stretch: normal;
+//   line-height: normal;
+//   letter-spacing: normal;
+//   text-align: center;
+//   color: #fff;
+//   color: var($color-white);
+// }
+//
+// .categoria {
+//   font-family: 'Roboto', sans-serif;
+//   font-size: 14px;
+//   font-weight: normal;
+//   font-style: normal;
+//   font-stretch: normal;
+//   line-height: 2.14;
+//   letter-spacing: normal;
+//   color: #8ccbea;
+//   color: var($color-lightblue);
+// }
+//
+// .texto-footer {
+//   font-family: 'Roboto', sans-serif;
+//   font-size: 14px;
+//   font-weight: 400;
+//   font-style: normal;
+//   font-stretch: normal;
+//   line-height: 2.14;
+//   letter-spacing: normal;
+//   text-align: center;
+//   color: #fff;
+//   color: var($color-white);
+// }
