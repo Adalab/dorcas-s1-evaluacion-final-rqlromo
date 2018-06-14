@@ -151,10 +151,8 @@ body {
 
 .imag-down {
   display: block;
-}
-
-.section-looking {
-  padding: 30px 15px;
+}/* SECTION LOOKING */.section-looking {
+  padding: 30px 15px 45px;
 }
 
 .titulo-main {
@@ -169,7 +167,6 @@ body {
 
 .texto-looking {
   padding-top: 15px;
-  text-align: justify;
 }
 
 .link-button-go {
@@ -182,10 +179,8 @@ body {
   border-radius: 22.5px;
   border: 2px solid #f26002;
   margin-top: 30px;
-}
-
-.section-reasons {
-  padding: 30px 15px 60px;
+}/* SECTION REASONS */.section-reasons {
+  padding: 30px 70px 60px;
   text-align: center;
   background-color: #eff9ff;
 }
@@ -206,9 +201,7 @@ body {
   margin-top: 45px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.page-footer {
+}/* Grid */.page-footer {
   background-color: #304268;
   text-align: center;
   padding-bottom: 30px;
@@ -270,17 +263,99 @@ body {
     font-size: 24px;
   }
 
+  .titulo-h1 {
+    width: 690px;
+    height: 212px;
+  }
+
+  .texto-header {
+    padding-top: 20px;
+  }
+
+  .button-down {
+    margin-top: 30px;
+  }
+
+  .section-looking {
+    padding: 30px 39px 60px;
+  }
+
+  .titulo-main {
+    padding-top: 0;
+  }
+
+  .texto-looking {
+    padding-top: 30px;
+  }
+
+  .link-button-go {
+    width: 91px;
+  }
+
+  .section-reasons {
+    padding-left: 35.7px;
+    padding-right: 40px;
+  }
+
+  .texto-reasons {
+    padding-top: 14px;
+  }
+
+  .link-button-reasons {
+    width: 210px;
+    margin-top: 60px;
+  }
+
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    grid-column-gap: 30px;
+    grid-column-gap: 27.7px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .h1 {
+    font-size: 100px;
+    line-height: 132px;
   }
 
-  .box {
-    width: 210px;
-    margin-right: auto;
-    margin-left: auto;
+  .div-insomnia {
+    font-size: 16px;
+  }
+
+  .h2 {
+    font-size: 32px;
+  }
+
+  .titulo-h1 {
+    width: 730px;
+    height: 264px;
+  }
+
+  .texto-header {
+    padding-top: 0;
+  }
+
+  .section-looking {
+    padding: 60px 275px;
+  }
+
+  .link-button-go {
+    width: 160px;
+  }
+
+  .section-reasons {
+    padding: 60px 85px 60px 81.2px;
+  }
+
+  .link-button-reasons {
+    width: 255px;
+    margin-top: 60px;
+  }
+
+  .wrapper {
+    grid-column-gap: 26.2px;
   }
 }
 

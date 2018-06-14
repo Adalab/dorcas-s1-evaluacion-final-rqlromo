@@ -34,6 +34,16 @@
   width: 290px;
   height: 110px;
   margin: 0;
+
+  @media all and (min-width: 768px) {
+    width: 690px;
+    height: 212px;
+  }
+
+  @media all and (min-width: 1280px) {
+    width: 730px;
+    height: 264px;
+  }
 }
 
 .box-relative {
@@ -47,6 +57,14 @@
   text-align: center;
   margin: 0;
   padding-top: 10px;
+
+  @media all and (min-width: 768px) {
+    padding-top: 20px;
+  }
+
+  @media all and (min-width: 1280px) {
+    padding-top: 0;
+  }
 }
 
 .button-down {
@@ -58,6 +76,10 @@
   margin-right: auto;
   background-color: $color-white;
   border-radius: 100%;
+
+  @media all and (min-width: 768px) {
+    margin-top: 30px;
+  }
 }
 
 .link-imag-down {
