@@ -3,6 +3,17 @@
   background-color: $color-dark-grey-blue;
   text-align: center;
   padding-bottom: 30px;
+  height: 128px;
+  position: relative;
+  bottom: 30px;
+}
+
+.box-footer {
+  position: absolute;
+  // top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -22.5px;
 }
 
 .button-up {
@@ -13,8 +24,34 @@
   margin-right: auto;
   background-color: $color-white;
   border-radius: 100%;
-  top: 0;
-  transform: translateY(-50%);
+  top: -50%;
+  animation-name: arrow;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+
+  @keyframes arrow {
+    0% {
+      box-shadow: 0 0 4px rgba(white, 0.5);
+      bottom: -16px;
+    }
+
+    50% {
+      box-shadow: 0 0 20px rgba(white, 0.5);
+      bottom: 5px;
+    }
+
+    85% {
+      box-shadow: 0 0 30px rgba(white, 0.2);
+    }
+
+    100% {
+      box-shadow: 0 0 4px rgba(white, 0.25);
+      bottom: 5px;
+    }
+  }
+
+
 }
 
 .link-imag-up {
@@ -28,7 +65,11 @@
   display: block;
 }
 
-.text-footer {
+.text-footer-copy {
+  margin: 15px 0 0 0;
+}
+
+.text-footer-love {
   margin: 0;
 }
 

@@ -52,6 +52,13 @@
   border-radius: 22.5px;
   border: 2px solid $color-bright-orange;
   margin-top: 30px;
+  transition: color ease 2s;
+
+  &:hover {
+    color: $color-white;
+    background-color: $color-bright-orange;
+    transform: scale(1.2);
+  }
 
   @media all and (min-width: 768px) {
     width: 91px;
@@ -107,6 +114,15 @@
   margin-top: 45px;
   margin-left: auto;
   margin-right: auto;
+  transition: color ease 2s;
+
+  &:hover {
+    width: 600px;
+    color: $color-bright-orange;
+    background-color: $color-white;
+    border: 2px solid $color-bright-orange;
+    transform: scale(1.2);
+  }
 
   @media all and (min-width: 768px) {
     width: 210px;
@@ -116,20 +132,5 @@
   @media all and (min-width: 1280px) {
     width: 255px;
     margin-top: 60px;
-  }
-}
-
-/* Grid */
-
-.wrapper {
-  @media all and (min-width: 768px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-column-gap: 27.7px;
-  }
-
-  @media all and (min-width: 1280px) {
-    grid-column-gap: 26.2px;
   }
 }

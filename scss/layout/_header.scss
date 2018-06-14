@@ -5,6 +5,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 .button-burguer {
@@ -46,7 +47,7 @@
   }
 }
 
-.box-relative {
+.box-header {
   position: absolute;
   top: 50%;
   left: 50%;

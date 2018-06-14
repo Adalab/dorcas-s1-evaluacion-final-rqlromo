@@ -1,0 +1,14 @@
+/* Grid */
+
+.wrapper {
+  @media all and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 27.7px;
+  }
+
+  @media all and (min-width: 1280px) {
+    grid-column-gap: 26.2px;
+  }
+}
