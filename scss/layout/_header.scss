@@ -17,7 +17,7 @@
   align-items: center;
 }
 
-.icono-menu {
+.imag-burguer {
   display: block;
 }
 
@@ -29,13 +29,7 @@
 // }
 
 .titulo-h1 {
-  font-family: $font-Roboto-Slab;
-  font-size: 42px;
-  font-weight: bold;
-  line-height: 55px;
-  letter-spacing: normal;
   text-align: center;
-  color: $color-white;
   text-transform: uppercase;
   width: 290px;
   height: 110px;
@@ -49,14 +43,8 @@
   transform: translateX(-50%);
 }
 
-.parrafo-header {
-  font-family: $font-Roboto;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: normal;
-  letter-spacing: normal;
+.texto-header {
   text-align: center;
-  color: $color-white;
   margin: 0;
   padding-top: 10px;
 }

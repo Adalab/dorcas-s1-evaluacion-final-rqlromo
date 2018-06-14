@@ -7,6 +7,76 @@
 body {
   height: 100vh;
   margin: 0;
+}/* Text styles *//* HEADER */.h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 55px;
+  letter-spacing: normal;
+  color: #fff;
+}/* th=texto header */.th {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}/* MAIN */.div-insomnia {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+  color: #8ccbea;
+}
+
+.h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: normal;
+  color: #000;
+}/* tl=texto loooking */.tl {
+  color: #4a4a4a;
+}/* tm=texto main */.tm {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+}/* tbgo=texto boton Go */.tbgo {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: normal;
+  color: #f26002;
+}
+
+.h3 {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: normal;
+  color: #000;
+}/* tr=texto reasons */.tr {
+  color: #000;
+}/* tbreasons=texto boton More Reasons */.tbreasons {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: normal;
+  color: #fff;
+}/* tf=texto footer */.tf {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+  color: #fff;
 }
 
 .page-header {
@@ -33,18 +103,12 @@ body {
   align-items: center;
 }
 
-.icono-menu {
+.imag-burguer {
   display: block;
 }
 
 .titulo-h1 {
-  font-family: "Roboto Slab", serif;
-  font-size: 42px;
-  font-weight: bold;
-  line-height: 55px;
-  letter-spacing: normal;
   text-align: center;
-  color: #fff;
   text-transform: uppercase;
   width: 290px;
   height: 110px;
@@ -59,14 +123,8 @@ body {
   transform: translateX(-50%);
 }
 
-.parrafo-header {
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: normal;
-  letter-spacing: normal;
+.texto-header {
   text-align: center;
-  color: #fff;
   margin: 0;
   padding-top: 10px;
 }
@@ -99,51 +157,25 @@ body {
   padding: 30px 15px;
 }
 
-.div-insomnia {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 30px;
-  letter-spacing: normal;
-  color: #8ccbea;
-}
-
 .titulo-main {
-  font-family: "Roboto Slab", serif;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 30px;
-  letter-spacing: normal;
-  color: #000;
   text-transform: capitalize;
   margin: 0;
   padding-top: 1px;
 }
 
 .texto-main {
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 30px;
-  letter-spacing: normal;
-  color: #4a4a4a;
   margin: 0;
 }
 
 .texto-looking {
   padding-top: 15px;
+  text-align: justify;
 }
 
-.button-go {
+.link-button-go {
   text-transform: capitalize;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 45px;
-  letter-spacing: normal;
   text-align: center;
-  color: #f26002;
   display: block;
   width: 76px;
   height: 45px;
@@ -159,25 +191,12 @@ body {
 }
 
 .subtitulo-main {
-  font-family: "Roboto Slab", serif;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 30px;
-  letter-spacing: normal;
-  text-align: center;
-  color: #000;
   margin: 0;
   padding-top: 45px;
 }
 
-.button-reasons {
-  font-family: "Roboto Slab", serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 45px;
-  letter-spacing: normal;
+.link-button-reasons {
   text-align: center;
-  color: #fff;
   display: block;
   width: 184px;
   height: 45px;
@@ -221,17 +240,48 @@ body {
 }
 
 .text-footer {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 30px;
-  letter-spacing: normal;
-  color: #fff;
   margin: 0;
 }
 
 .corazon {
   color: #f26002;
+}
+
+@media all and (min-width: 768px) {
+  .h1 {
+    font-size: 80px;
+    line-height: 106px;
+  }
+
+  .th {
+    font-size: 24px;
+  }
+
+  .h2 {
+    font-size: 26px;
+    line-height: 45px;
+  }
+
+  .tm {
+    font-size: 20px;
+  }
+
+  .h3 {
+    font-size: 24px;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 30px;
+  }
+
+  .box {
+    width: 210px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
