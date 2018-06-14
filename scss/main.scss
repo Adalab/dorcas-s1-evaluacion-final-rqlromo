@@ -9,8 +9,8 @@ body {
 }
 
 @import 'core/variables';
-@import 'components/typography';
 @import 'layout/header';
-@import 'layout/grid';
-@import 'pages/home';
 @import 'layout/footer';
+@import 'layout/grid';
+@import 'components/typography';
+@import 'pages/home';
