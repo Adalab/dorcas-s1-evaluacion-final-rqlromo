@@ -13,9 +13,10 @@
   width: 44px;
   background-color: $color-cerulean;
   position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
 }
 
 .imag-burguer {
@@ -48,10 +49,13 @@
 }
 
 .box-header {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  @include absolute;
+
   transform: translateX(-50%);
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translateX(-50%);
 }
 
 .texto-header {
@@ -73,8 +77,10 @@
   width: 45px;
   margin-top: 45px;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
+
+  @include margin-left-right-auto;
+  // margin-left: auto;
+  // margin-right: auto;
   background-color: $color-white;
   border-radius: 100%;
 
@@ -85,9 +91,9 @@
 
 .link-imag-down {
   display: inline-block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+
+  @include absolute;
+
   transform: translate(-50%, -50%);
 }
 

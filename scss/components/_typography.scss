@@ -1,14 +1,18 @@
+
 /* Text styles */
 
 /* HEADER */
 
+// .h1 {
+//   font-family: $font-Roboto-Slab;
+//   font-size: 42px;
+//   font-weight: bold;
+//   line-height: 55px;
+//   letter-spacing: normal;
+//   color: $color-white;
+
 .h1 {
-  font-family: $font-Roboto-Slab;
-  font-size: 42px;
-  font-weight: bold;
-  line-height: 55px;
-  letter-spacing: normal;
-  color: $color-white;
+  @include h1 ($font-Roboto-Slab, 42px, bold, 55px, normal, $color-white);
 
   @media all and (min-width: 768px) {
     font-size: 80px;
@@ -24,12 +28,14 @@
 /* th=texto header */
 
 .th {
-  font-family: $font-Roboto;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: $color-white;
+  // font-family: $font-Roboto;
+  // font-size: 18px;
+  // font-weight: normal;
+  // line-height: normal;
+  // letter-spacing: normal;
+  // color: $color-white;
+
+  @include h1 ($font-Roboto-Slab, 18px, normal, normal, normal, $color-white);
 
   @media all and (min-width: 768px) {
     font-size: 24px;
@@ -39,12 +45,14 @@
 /* MAIN */
 
 .div-insomnia {
-  font-family: $font-Roboto;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 30px;
-  letter-spacing: normal;
-  color: $color-lightblue;
+  // font-family: $font-Roboto;
+  // font-size: 14px;
+  // font-weight: normal;
+  // line-height: 30px;
+  // letter-spacing: normal;
+  // color: $color-lightblue;
+
+  @include h1 ($font-Roboto, 14px, normal, 30px, normal, $color-lightblue);
 
   @media all and (min-width: 1280px) {
     font-size: 16px;
@@ -52,12 +60,14 @@
 }
 
 .h2 {
-  font-family: $font-Roboto-Slab;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 30px;
-  letter-spacing: normal;
-  color: $color-black;
+  // font-family: $font-Roboto-Slab;
+  // font-size: 24px;
+  // font-weight: bold;
+  // line-height: 30px;
+  // letter-spacing: normal;
+  // color: $color-black;
+
+  @include h1 ($font-Roboto-Slab, 24px, bold, 30px, normal, $color-black);
 
   @media all and (min-width: 768px) {
     font-size: 26px;
@@ -92,21 +102,25 @@
 /* tbgo=texto boton Go */
 
 .tbgo {
-  font-family: $font-Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 45px;
-  letter-spacing: normal;
-  color: $color-bright-orange;
+  // font-family: $font-Roboto;
+  // font-size: 20px;
+  // font-weight: 500;
+  // line-height: 45px;
+  // letter-spacing: normal;
+  // color: $color-bright-orange;
+  @include h1 ($font-Roboto, 20px, 500, 45px, normal, $color-bright-orange);
+
 }
 
 .h3 {
-  font-family: $font-Roboto-Slab;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 30px;
-  letter-spacing: normal;
-  color: $color-black;
+  // font-family: $font-Roboto-Slab;
+  // font-size: 18px;
+  // font-weight: bold;
+  // line-height: 30px;
+  // letter-spacing: normal;
+  // color: $color-black;
+
+  @include h1 ($font-Roboto-Slab, 18px, bold, 30px, normal, $color-black);
 
   @media all and (min-width: 768px) {
     font-size: 24px;
@@ -122,21 +136,25 @@
 /* tbreasons=texto boton More Reasons */
 
 .tbreasons {
-  font-family: $font-Roboto-Slab;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 45px;
-  letter-spacing: normal;
-  color: $color-white;
+  @include h1 ($font-Roboto-Slab, 20px, 500, 45px, normal, $color-white);
+
+  // font-family: $font-Roboto-Slab;
+  // font-size: 20px;
+  // font-weight: 500;
+  // line-height: 45px;
+  // letter-spacing: normal;
+  // color: $color-white;
 }
 
 /* tf=texto footer */
 
 .tf {
-  font-family: $font-Roboto;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 30px;
-  letter-spacing: normal;
-  color: $color-white;
+  @include h1 ($font-Roboto, 14px, normal, 30px, normal, $color-white);
+
+  // font-family: $font-Roboto;
+  // font-size: 14px;
+  // font-weight: normal;
+  // line-height: 30px;
+  // letter-spacing: normal;
+  // color: $color-white;
 }

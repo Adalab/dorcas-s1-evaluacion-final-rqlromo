@@ -11,8 +11,10 @@
   @media all and (min-width: 1280px) {
     padding: 60px 0;
     max-width: 730px;
-    margin-left: auto;
-    margin-right: auto;
+
+    @include margin-left-right-auto;
+    // margin-left: auto;
+    // margin-right: auto;
   }
 }
 
@@ -91,8 +93,10 @@
 
 .max-width {
   max-width: 1110px;
-  margin-left: auto;
-  margin-right: auto;
+
+  @include margin-left-right-auto;
+  // margin-left: auto;
+  // margin-right: auto;
 }
 
 .subtitulo-main {
@@ -121,9 +125,11 @@
   background-color: $color-bright-orange;
   text-decoration: none;
   margin-top: 45px;
-  margin-left: auto;
-  margin-right: auto;
   transition: color ease 2s;
+
+  @include margin-left-right-auto;
+  // margin-left: auto;
+  // margin-right: auto;
 
   &:hover {
     width: 600px;

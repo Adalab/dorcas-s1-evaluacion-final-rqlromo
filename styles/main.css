@@ -149,7 +149,7 @@ body {
   letter-spacing: normal;
   color: #fff;
 }/* th=texto header */.th {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 18px;
   font-weight: normal;
   line-height: normal;
@@ -274,10 +274,10 @@ body {
   background-color: #f26002;
   text-decoration: none;
   margin-top: 45px;
-  margin-left: auto;
-  margin-right: auto;
   -webkit-transition: color ease 2s;
   transition: color ease 2s;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .link-button-reasons:hover {
