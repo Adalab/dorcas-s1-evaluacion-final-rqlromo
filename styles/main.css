@@ -64,10 +64,10 @@ body {
   width: 45px;
   margin-top: 45px;
   position: relative;
+  border-radius: 100%;
   margin-left: auto;
   margin-right: auto;
   background-color: #fff;
-  border-radius: 100%;
 }
 
 .link-imag-down {
@@ -103,12 +103,12 @@ body {
 .button-up {
   height: 45px;
   width: 45px;
+  border-radius: 100%;
   position: relative;
+  background-color: #fff;
+  top: -50%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #fff;
-  border-radius: 100%;
-  top: -50%;
   -webkit-animation-name: arrow;
   animation-name: arrow;
   -webkit-animation-duration: 3s;
@@ -211,6 +211,20 @@ body {
   line-height: 30px;
   letter-spacing: normal;
   color: #fff;
+}/* SECTION ANONYMOUS */.section-anonymous {
+  background-color: #f26002;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }/* SECTION LOOKING */.section-looking {
   padding: 30px 15px 45px;
 }
@@ -230,12 +244,12 @@ body {
 }
 
 .link-button-go {
+  width: 76px;
+  height: 45px;
   text-transform: capitalize;
   text-decoration: none;
   text-align: center;
   display: block;
-  width: 76px;
-  height: 45px;
   border-radius: 22.5px;
   border: 2px solid #f26002;
   margin-top: 30px;
@@ -330,6 +344,10 @@ body {
 
   .h3 {
     font-size: 24px;
+  }
+
+  .section-anonymous {
+    background-color: #0271bc;
   }
 
   .section-looking {

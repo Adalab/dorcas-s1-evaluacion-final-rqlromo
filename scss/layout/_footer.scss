@@ -19,14 +19,14 @@
 .button-up {
   height: 45px;
   width: 45px;
+  border-radius: 100%;
   position: relative;
+  background-color: $color-white;
+  top: -50%;
 
   @include margin-left-right-auto;
   // margin-left: auto;
   // margin-right: auto;
-  background-color: $color-white;
-  border-radius: 100%;
-  top: -50%;
   animation-name: arrow;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
